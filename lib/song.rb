@@ -20,5 +20,6 @@ class Song
     song = self.new
     song = song.name
     song
+  end
  
 end

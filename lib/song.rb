@@ -12,7 +12,7 @@ class Song
   
   def self.create
     song = self.create
-    Song.all.include?
+    Song.all.include?(song)
     song
   end
  

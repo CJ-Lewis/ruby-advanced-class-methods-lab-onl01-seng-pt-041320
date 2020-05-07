@@ -3,7 +3,8 @@ class Song
   @@all = []
 
   def self.create
-    
+    song = self.crease
+    Song.all.include?
     song
   end
 end

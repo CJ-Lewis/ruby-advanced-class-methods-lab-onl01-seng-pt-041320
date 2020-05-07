@@ -4,8 +4,8 @@ class Song
   
   
   def self.create
-    song = self.create
-    Song.new
+    song = self.new
+    Song.name = name
     song
   end
  
